@@ -1,0 +1,23 @@
+{
+  "name": "Basic",
+  "version": "0.1.0",
+  "summary": "Basic extension and helper classes",
+  "description": "This pod provides basic extension and helper classes used in most of projects.",
+  "homepage": "https://github.com/mansoor92/Basic",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mansoor92": "mali92390@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mansoor92/Basic.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_version": "4",
+  "source_files": "Basic/Classes/**/*"
+}
