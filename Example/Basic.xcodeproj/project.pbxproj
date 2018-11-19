@@ -44,7 +44,7 @@
 		610E95951C7599D94B343B02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7D59EAC09B62E7FD7254DD54 /* Pods_Basic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Basic_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		854571AB8A3E545044EAF7B8 /* Pods-Basic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basic_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Basic_Example/Pods-Basic_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B00B55A45EB68CEFCDDE2290 /* Basic.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Basic.podspec; path = ../Basic.podspec; sourceTree = "<group>"; };
+		B00B55A45EB68CEFCDDE2290 /* Basic.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Basic.podspec; path = ../Basic.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B35E52CF34558412B3E397C5 /* Pods-Basic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basic_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Basic_Tests/Pods-Basic_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F7159B73A993202C94E33B00 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
