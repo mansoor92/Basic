@@ -7,18 +7,29 @@
 //
 
 import UIKit
+import Basic
 
 class ViewController: UIViewController {
+
+	@IBOutlet weak var fieldPhone: UITextField!
+	@IBOutlet weak var fieldPassword: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+	@IBAction func didChangeText(_ sender: ValidationMsgTextField) {
+		let status: InputValidationStatus
+		if sender == fieldPhone, sender.text!.isValid(forExp: RegularExpression.phone.rawValue) {
+			status = InputValidationStatus.valid
+		}else if sender == fieldPassword,  sender.text!.isValid(forExp: RegularExpression.password.rawValue){
+			status = InputValidationStatus.valid
+		}else {
+			status = InputValidationStatus.invalid("Inavlid")
+		}
+		sender.set(validationStatus: status)
+	}
 
 }
 

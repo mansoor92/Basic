@@ -10,9 +10,9 @@ import Foundation
 
 public enum RegularExpression: String {
 	case email = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}"
-    case phone = "^\\d{3}-\\d{3}-\\d{4}$"
+    case phone = "^\\d{12}$"
     case dubaiPhone = "^\\d{9}$"
-	case password = ".{6,}"
+	case password = ".{8,}"
 	case notEmpty = ".{1,}"
 }
 
