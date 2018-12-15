@@ -54,11 +54,11 @@ open class ErrorManagementView: UIView, ViewAnimatable, ViewDisplayable {
 		self.alpha = 0
 	}
 
-	public func playAnimation() {
+	open func playAnimation() {
 		isAnimating = true
 	}
 
-	public func stopAnimation() {
+	open func stopAnimation() {
 		isAnimating = false
 	}
 
@@ -74,7 +74,7 @@ open class ErrorManagementView: UIView, ViewAnimatable, ViewDisplayable {
 		}
 	}
 
-	public func hide(animated: Bool, completion: ((Bool) -> Void)?) {
+	open func hide(animated: Bool, completion: ((Bool) -> Void)?) {
 		self.stopAnimation()
 		let closure: (Bool) -> Void  = { (finished) in
 			if finished { self.removeFromSuperview() }
@@ -94,7 +94,7 @@ open class ErrorManagementView: UIView, ViewAnimatable, ViewDisplayable {
 	}
 
 
-	public func show(fromViewController viewController: UIViewController,
+	open func show(fromViewController viewController: UIViewController,
 			  insets: UIEdgeInsets,
 			  animated: Bool,
 			  completion: ((Bool) -> Void)? = nil) {
@@ -112,7 +112,7 @@ open class ErrorManagementView: UIView, ViewAnimatable, ViewDisplayable {
 	}
 
 
-	public func show(fromView view: UIView,
+	open func show(fromView view: UIView,
 			  insets: UIEdgeInsets,
 			  animated: Bool,
 			  completion: ((Bool) -> Void)? = nil) {
