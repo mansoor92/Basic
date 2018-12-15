@@ -14,7 +14,7 @@ public protocol ErrorViewDelegate: class {
 open class ErrorView: ErrorManagementView {
 
 	//MARK: Properties
-	weak var delegate: ErrorViewDelegate?
-	public var message: String?
+	public weak var delegate: ErrorViewDelegate?
+	open var message: String?
 
 }
