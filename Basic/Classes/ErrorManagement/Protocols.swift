@@ -19,7 +19,6 @@ public enum ErrorContext {
 
 public protocol Reloadable {
 	var hasData: Bool { get }
-	func reloadData()
 }
 
 public protocol Failable {
